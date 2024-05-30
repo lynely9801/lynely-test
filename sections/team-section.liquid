@@ -4,8 +4,11 @@
   <div class="container">
     <div class="teams_container">
       <div class="team__header">
+        {% if section.settings.teams_label != blank %}
         <span class="team__tag">{{ section.settings.team_tag }}</span>
+        {% if section.settings.teams_label != blank %}
         <h2 class="team__title">{{ section.settings.team_title }}</h2>
+        {% if section.settings.teams_label != blank %}
         <p class="team__description">{{ section.settings.team_description }}</p>
       </div>
       <div class="team__members">
@@ -21,24 +24,34 @@
                 class="block w-fit"
               >
               <div class="team__member-info">
+                {% if block.settings.name != blank %}
                 <h3 class="team__member-name">{{ block.settings.name }}</h3>
+                {% endif %}
+                {% if block.settings.rank != blank %}
                 <p class="team__member-rank">{{ block.settings.rank }}</p>
+                {% endif %}
                 <div class="team__member-social">
+                  {% if block.settings.facebook_link != blank %}
                   <a
                     href="{{ block.settings.facebook_link }}"
                     class="team__member-social-link team__member-social-link--facebook">
                     {% render 'icon-facebook' %}
                   </a>
+                  {% endif %}
+                  {% if block.settings.instagram_link != blank %}
                   <a
                     href="{{ block.settings.instagram_link }}"
                     class="team__member-social-link team__member-social-link--instagram">
                     {% render 'icon-instagram' %}  
                   </a>
+                  {% endif %}
+                  {% if block.settings.twitter_link != blank %}
                   <a
                     href="{{ block.settings.twitter_link }}"
                     class="team__member-social-link team__member-social-link--twitter">
                       {% render 'icon-twitter' %} 
                     </a>
+                  {% endif %}
                 </div>
               </div>
             </div>
