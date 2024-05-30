@@ -1,0 +1,107 @@
+{
+  "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Browse our latest products",
+            "heading_size": "h0"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop all",
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "button"
+      ],
+      "settings": {
+        "image_overlay_opacity": 40,
+        "image_height": "large",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "team_section_bwaTzM": {
+      "type": "team-section",
+      "blocks": {
+        "team_member_ngKtTw": {
+          "type": "team_member",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/user-cover-1_c03b379d-f84f-4d77-a4c0-0732692da851.png",
+            "name": "Julian Jameson",
+            "rank": "Profession",
+            "facebook_link": "\/#",
+            "instagram_link": "\/#",
+            "twitter_link": "\/#"
+          }
+        },
+        "team_member_QedPgx": {
+          "type": "team_member",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/user-cover-2_d1b78f58-782e-4647-b261-121ee2545d1d.png",
+            "name": "Julian Jameson",
+            "rank": "Profession",
+            "facebook_link": "\/#",
+            "instagram_link": "\/#",
+            "twitter_link": "\/#"
+          }
+        },
+        "team_member_C3eJKp": {
+          "type": "team_member",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/user-cover-3_e184f5b8-2cea-4adf-b4ce-e62005bd5f41.png",
+            "name": "Julian Jameson",
+            "rank": "Profession",
+            "facebook_link": "\/#",
+            "instagram_link": "\/#",
+            "twitter_link": "\/#"
+          }
+        },
+        "team_member_3GjzeW": {
+          "type": "team_member",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/user-cover-4_e036277f-a12c-4425-9ca9-2f0b04f9ca4a.png",
+            "name": "Julian Jameson",
+            "rank": "Profession",
+            "facebook_link": "\/#",
+            "instagram_link": "\/#",
+            "twitter_link": "\/#"
+          }
+        }
+      },
+      "block_order": [
+        "team_member_ngKtTw",
+        "team_member_QedPgx",
+        "team_member_C3eJKp",
+        "team_member_3GjzeW"
+      ],
+      "settings": {
+        "team_tag": "Team",
+        "team_title": "Get Quality Education",
+        "team_description": "Problems trying to resolve the conflict between<br>\nthe two major realms of Classical physics: Newtonian mechanics"
+      }
+    }
+  },
+  "order": [
+    "image_banner",
+    "team_section_bwaTzM"
+  ]
+}
